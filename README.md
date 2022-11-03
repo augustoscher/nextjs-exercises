@@ -10,7 +10,7 @@ npm run dev
 yarn dev
 ```
 
-## Getting Started
+## Study
 
 - Server components
 - [Image generation](https://nextjs.org/blog/next-13#og-image-generation)
