@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>NextJS Exercises</title>
         <meta name="description" content="NextJS exercises" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

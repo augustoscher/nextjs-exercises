@@ -9,7 +9,6 @@ export type BaseTemplateProps = {
 const Base = ({ children }: BaseTemplateProps) => (
   <S.Wrapper>
     <Header />
-
     <S.Main>
       <S.Content>{children}</S.Content>
     </S.Main>

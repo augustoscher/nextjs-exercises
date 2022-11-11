@@ -14,5 +14,5 @@ export const Main = styled.main`
 
 export const Content = styled.section`
   width: 80%;
-  margin: 0 auto 0 auto;
+  margin: 24px auto 0 auto;
 `
