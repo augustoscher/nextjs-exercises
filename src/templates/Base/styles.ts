@@ -8,6 +8,6 @@ export const Wrapper = styled.div`
 `
 
 export const Content = styled.div`
-  margin-top: 100px;
+  margin-top: 16px;
   flex: 1 0 auto;
 `

@@ -1,6 +1,5 @@
-import { Container } from 'components/Container'
-// import Footer from 'components/Footer'
-// import Menu from 'components/Menu'
+import Footer from 'components/Footer'
+import Menu from 'components/Menu'
 
 import * as S from './styles'
 
@@ -10,13 +9,11 @@ export type BaseTemplateProps = {
 
 const Base = ({ children }: BaseTemplateProps) => (
   <S.Wrapper>
-    <Container>
-      <p>Menu</p>
-    </Container>
+    <Menu />
 
     <S.Content>{children}</S.Content>
 
-    <p>Footer</p>
+    <Footer />
   </S.Wrapper>
 )
 
