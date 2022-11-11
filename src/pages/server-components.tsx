@@ -1,8 +1,11 @@
 import Base from 'templates/Base'
+import Heading from 'components/Heading'
 
 const ServerComponents = () => (
   <Base>
-    <h1>server components</h1>
+    <Heading color="black" size="small" lineLeft lineColor="secondary">
+      Server Component
+    </Heading>
   </Base>
 )
 
