@@ -10,7 +10,9 @@ const Base = ({ children }: BaseTemplateProps) => (
   <S.Wrapper>
     <Header />
 
-    <S.Main>{children}</S.Main>
+    <S.Main>
+      <S.Content>{children}</S.Content>
+    </S.Main>
   </S.Wrapper>
 )
 
