@@ -32,7 +32,7 @@ const modifiers = {
 export const BurgerButton = styled.div<BurgerButtonProps>`
   ${({ menuOpened }) => css`
     justify-content: flex-end;
-    height: 20px;
+    height: 16px;
     width: 24px;
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ export const BurgerButton = styled.div<BurgerButtonProps>`
 
     & span {
       display: block;
-      height: 3px;
+      height: 2.4px;
       width: 100%;
       border-radius: 10px;
       background: #262626;
