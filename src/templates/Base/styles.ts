@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   justify-content: space-between;
 `
 
-export const Content = styled.div`
-  margin-top: 16px;
+export const Main = styled.main`
   flex: 1 0 auto;
+  background-color: #fafafa;
 `
