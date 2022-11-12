@@ -1,7 +1,9 @@
 import Base from 'templates/Base'
 import Heading from 'components/Heading'
 
-const ServerComponents = () => (
+// export type HomeTemplateProps = {}
+
+const Test = () => (
   <Base>
     <Heading color="black" size="small" lineLeft lineColor="secondary">
       Server Component
@@ -9,4 +11,4 @@ const ServerComponents = () => (
   </Base>
 )
 
-export default ServerComponents
+export default Test

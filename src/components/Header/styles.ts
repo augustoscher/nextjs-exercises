@@ -38,7 +38,6 @@ export const BurgerButton = styled.div<BurgerButtonProps>`
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-
     & span {
       display: block;
       height: 2.4px;
@@ -46,7 +45,6 @@ export const BurgerButton = styled.div<BurgerButtonProps>`
       border-radius: 10px;
       background: #262626;
     }
-
     ${menuOpened ? modifiers.normal : modifiers.collapsed}
   `}
 `

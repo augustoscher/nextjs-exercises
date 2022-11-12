@@ -40,7 +40,6 @@ export const wrapperModifiers = {
   lineBottom: (lineColor: LineColors) => css`
     position: relative;
     margin-bottom: 3.2rem;
-
     &::after {
       position: absolute;
       left: 0;
@@ -55,7 +54,6 @@ export const wrapperModifiers = {
 export const Wrapper = styled.h2<HeadingProps>`
   ${({ color, size, lineLeft, lineBottom, lineColor }) => css`
     color: ${rgbColor[color!]};
-
     ${lineLeft && wrapperModifiers.lineLeft(lineColor!)}
     ${lineBottom && wrapperModifiers.lineBottom(lineColor!)}
     ${!!size && wrapperModifiers[size]}
