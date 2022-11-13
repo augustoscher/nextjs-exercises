@@ -1,19 +1,18 @@
-'use client'
 import Header from 'components/Header'
 
-import * as S from './styles'
+import styles from './Base.module.css'
 
 export type BaseTemplateProps = {
   children: React.ReactNode
 }
 
 const Base = ({ children }: BaseTemplateProps) => (
-  <S.Wrapper>
+  <div className={styles.wrapper}>
     <Header />
-    <S.Main>
-      <S.Content>{children}</S.Content>
-    </S.Main>
-  </S.Wrapper>
+    <main className={styles.main}>
+      <section className={styles.section}>{children}</section>
+    </main>
+  </div>
 )
 
 export default Base
