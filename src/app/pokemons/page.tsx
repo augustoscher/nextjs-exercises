@@ -35,7 +35,7 @@ export default async function ServerComponentPage() {
         {data.results.map((item: PokeData) => (
           <Link
             key={item.name}
-            href={{ href: '/pokemons/detail', query: item.url }}
+            href={{ href: '/pokemons/[pokemonId]/', query: { pokemonId: 1 } }}
           >
             <div className={styles.listItem}>
               <p>{item.name}</p>
