@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router'
+// import { usePathname } from 'next/navigation'
 
 import Base from 'templates/Base'
 import Heading from 'components/Heading'
@@ -9,9 +9,8 @@ async function getData(id: number) {
 }
 
 export default async function PokemonDetail() {
-  const router = useRouter()
-  const { pokemonId } = router.query
-  console.log(pokemonId)
+  // const pathname = usePathname() || ''
+  // const pokemonId = pathname[pathname?.length - 1]
 
   const data = await getData(1)
   console.log(data)
@@ -19,7 +18,7 @@ export default async function PokemonDetail() {
   return (
     <Base>
       <Heading color="black" size="small" lineLeft lineColor="secondary">
-        Name of the Pokemon
+        {data.name}
       </Heading>
       <div>details</div>
     </Base>
